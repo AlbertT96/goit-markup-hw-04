@@ -46,7 +46,7 @@ img {
   margin-right: auto;
 }
 .header_border {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -306,6 +306,7 @@ img {
   margin-left: 10px;
   fill: #afb1b8;
 }
+
 .icon_list {
   width: 270px;
   display: flex;
@@ -354,6 +355,18 @@ img {
   margin-right: auto;
 }
 
+
+.svg_list_i_c_k > .svg_link_i_c_k {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  margin-left: 10px;
+  fill: #afb1b8;
+}
+.svg_link_i_c_k:hover,
+.svg_link_i_c_k:focus,
 .svg_link_i_c:hover,
 .svg_link_i_c:focus {
   background-color: var(--main--color);
