@@ -159,10 +159,12 @@ img {
   color: #212121;
 }
 
+
+
+
+
 .nav__l_i:hover,
 .nav__l_i:focus,
-.adress_header_l_i:hover,
-.adress_header_l_i:focus,
 .adress_footer_l_i:hover,
 .adress_footer_l_i:focus {
   color: var(--main--color);
@@ -195,8 +197,25 @@ img {
 .adress_header_l_i,
 .adress_footer_l_i {
   text-decoration: none;
-  color: var(--secondary-color);
 }
+.address_color{
+color: var(--secondary-color);
+fill: var(--main--color);
+
+}
+.address_color:focus,
+.address_color:hover,
+.svg_hover:focus,
+.svg_hover:hover{
+  color: var(--main--color);
+  fill:var(--main--color);
+}
+.svg_hover{
+  fill: currentColor;
+}
+
+
+
 .padding_hero {
   padding-bottom: 30px;
 }
@@ -262,13 +281,23 @@ img {
 .box {
   width: 370px;
   height: 294px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.box2 {
+.box:first-child{
+width: 370px;
+  height: 294px;
+  padding-left: 15px;
+}
+.box:last-child{
+width: 370px;
+  height: 294px;
+  padding-right: 15px;
+}
+/* .box2 {
   margin-right: 15px;
   margin-left: 15px;
-}
+} */
 .our_team_padding {
   padding-top: 94px;
   padding-bottom: 50px;
@@ -279,8 +308,6 @@ img {
   align-items: center;
   justify-content: center;
   width: 270px;
-  margin-right: 15px;
-  margin-left: 15px;
 }
 .boxWtxtPortfolio {
   display: flex;
@@ -363,10 +390,23 @@ img {
   width: 170px;
   height: 92px;
   margin-left: 10px;
+  border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
   fill: #afb1b8;
 }
+.icon_color:hover,
+.icon_color:focus,
 .svg_link_i_c_k:hover,
-.svg_link_i_c_k:focus,
+.svg_link_i_c_k:focus{
+  border-color: var(--secoundary-backgroundcolor);
+  fill:  var(--main--color);
+}
+.icon_color{
+  
+  fill:#AFB1B8;;
+}
+
 .svg_link_i_c:hover,
 .svg_link_i_c:focus {
   background-color: var(--main--color);
@@ -384,6 +424,8 @@ img {
   height: 428px;
   background-color: var(--main-background-color);
   margin-bottom: 94px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .lorem_list {
@@ -426,6 +468,9 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+}
+.our_team_bg{
   background-color: #f5f4fa;
 }
 .pierwsza_czesc_logo_footer {
