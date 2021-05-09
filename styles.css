@@ -200,18 +200,18 @@ img {
 }
 .address_color{
 color: var(--secondary-color);
-fill: var(--main--color);
+
 
 }
 .address_color:focus,
-.address_color:hover,
-.svg_hover:focus,
-.svg_hover:hover{
+.address_color:hover
+{
   color: var(--main--color);
-  fill:var(--main--color);
+  
 }
 .svg_hover{
   fill: currentColor;
+  margin-right: 10px;
 }
 
 
